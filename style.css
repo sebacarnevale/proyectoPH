@@ -6,10 +6,8 @@ body{
     width: 100%;
     font-family: 'Cinzel', serif;
     background-image: url(https://img.freepik.com/foto-gratis/llano-fondo-decorativo-gris-textura_1136-349.jpg?size=626&ext=jpg&ga=GA1.2.935812280.1636502400);
-    background-size: 100%;
-    
+    background-size: 100%;   
 }
-
 
 a{
     text-decoration: none;
@@ -21,12 +19,6 @@ a{
     list-style: none;
 }
 
-.navi{
-    background-color: #b4f010;
-    border: 1px solid #080808;
-    height: 50px;
-}
-
 .navegadores{
     font-size: 25px;
      font-weight: bolder;
@@ -34,7 +26,6 @@ a{
 }
 
 .casa{
-    position: fixed;
     color: #080808;
 }
 
@@ -43,12 +34,12 @@ a{
 }
 
 
-
 .titulo{
     font-size: 50px;
-    color:  #b4f010;
+    color:  #080808;
     margin-top: 10px;
     text-align: center;
+    font-weight: bolder;
 }
 
 .logo{
@@ -58,29 +49,26 @@ a{
 }
 
 .subTitulo{
-    color: #b4f010;
+    color:#080808;
     text-align: center;
 
 }
-.imagenesPrincipales{
+.contenedorImagenes{
     display: inline-block;
-    margin-top: 110px;
-    margin-left: 250px;
-    
-  
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;  
 }
 
-section div img{
-    width:400px;
-    height:400px;
-    object-fit: cover;
-    
+.fotosPrincipales{
+    width:300px;
+    height:300px;
+    object-fit: cover;    
 }
 
 .subContacto{
     margin-top: 50px;
     text-align: center;
-    border: 1px solid #080808;
     background-color:#b4f010;
     font-weight: bolder;
 }
@@ -94,122 +82,12 @@ section div img{
     flex-direction:column;
     align-items: center;
     height: 200px;
-
+    border: 1px solid white;
 }
 
 label{
     font-weight: bolder;
     color:#b4f010;
-}
-
-
-footer{
-    background-color: #080808;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px;
-    
-    
-}
-.gota{
-    width: 50px;
-    height: 50px;
-    object-fit: content;
-}
-.redes{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 30px;
-}
-
-.facebook{
-    color: #3b5998;
-}
-.instagram{
-    color: #870fbe
-}
-
-.horarios{
-    margin-top: 10px;
-    text-align: center;
-    color:  #b4f010;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-
-
-
-
-
-
-
-
-.tituloUbicacion{
-    margin-top: 50px;
-    text-align: center;
-    border: 1px solid #080808;
-    background-color:#b4f010;
-    font-weight: bolder;
-    color: #080808;
-}
-
-iframe{
-    width: 100%;
-}
-
-.contactoUbi{
-    margin-top: 20px;
-    text-align: center;
-    border: 1px solid #080808;
-    background-color:#b4f010;
-    font-weight: bolder;
-}
-
-.carrouselProductos{
-    display:flex;
-    overflow-x: scroll;
-    width: 70%;
-    margin: auto;
-    
-}
-
-.carrouselProductos::-webkit-scrollbar {
-    width: 2px;               /* width of the entire scrollbar */
-  }
-  
-  .carrouselProductos::-webkit-scrollbar-track {
-    background: #ffffff;        /* color of the tracking area */
-    border-radius: 6px;
-}
-  
-  .carrouselProductos::-webkit-scrollbar-thumb {
-    background-color: #080808;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #080808;  /* creates padding around scroll thumb */
-    
-}
-
-.contactoQs{
-    margin-top: 20px;
-    text-align: center;
-    border: 1px solid #080808;
-    background-color:#b4f010;
-    font-weight: bolder;
-}
-.productos{
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    margin: 2%;
-}
-
-.wsp{
-    position: sticky;
-    bottom: 0;
-    right: 0;
-    color: #25D366;
 }
 
 section h1{
@@ -221,15 +99,49 @@ section p{
     color: #ffffff;
 }
 
+.carrouselProductos{
+    display:flex;
+    overflow-x: scroll;
+    width: 70%;
+    margin: auto;   
+}
+
+.carrouselProductos::-webkit-scrollbar {
+    width: 2px;               /* width of the entire scrollbar */
+}
+  
+.carrouselProductos::-webkit-scrollbar-track {
+    background: #ffffff;        /* color of the tracking area */
+    border-radius: 6px;
+}
+  
+  .carrouselProductos::-webkit-scrollbar-thumb {
+      background-color: #080808;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #080808;  /* creates padding around scroll thumb */   
+}
+
+.contactoQs{
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #080808;
+    background-color:#b4f010;
+    font-weight: bolder;
+}
+
+.productos{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 2%;
+}
+
+
 body h1{
     text-align: center;
     color: #b4f010;
 }
 
-.imgProductos{
-    width: 250px;
-    
-}
 
 .contenedorProductos{
     display: flex;
@@ -247,6 +159,13 @@ body h1{
     color: #ffffff;
 }
 
+.imgProductos{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    margin: 2%;
+    
+}
 
 .productosliq{
     text-align: center;
@@ -271,4 +190,65 @@ th{
     border: 1px solid #080808;
     background-color:#b4f010;
     font-weight: bolder;
+}
+.tituloUbicacion{
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid #080808;
+    background-color:#b4f010;
+    font-weight: bolder;
+    color: #080808;
+}
+
+
+.contactoUbi{
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #080808;
+    background-color:#b4f010;
+    font-weight: bolder;
+}
+
+iframe{
+    width: 100%;
+}
+
+footer{
+    background-color: #080808;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;    
+}
+
+.redes{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
+.facebook{
+    color: #3b5998;
+}
+
+.instagram{
+    color: #870fbe
+}
+
+.wsp{
+    color: #25D366;
+}
+
+.gota{
+    width: 50px;
+    height: 50px;
+    object-fit: content;
+}
+
+.horarios{
+    margin-top: 10px;
+    text-align: center;
+    color:  #b4f010;
+    font-weight: bolder;
+    font-size: 20px;
 }
