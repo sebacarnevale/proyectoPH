@@ -12,7 +12,9 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-    <title>Productos-PH</title>
+    <!--link animacion AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <title>Productos-PH</title>
 </head>
 <body>
     <div>
@@ -31,22 +33,22 @@
 
    <section class="contenedorProductos" >
        <div> 
-           <img class="imgProductos"  src="./imagenes/empresa.jpg" alt="foto" width="300">
+           <img class="imgProductos" data-aos="flip-up" src="./imagenes/empresa.jpg" alt="foto" width="300">
            <h3> Productos para Empresas</h3>
        </div>
 
        <div> 
-           <img  class="imgProductos" src="./imagenes/fragancia.jpg" alt="foto" width="300">
+           <img  class="imgProductos" data-aos="flip-up" src="./imagenes/fragancia.jpg" alt="foto" width="300">
            <h3>fragancias</h3>
        </div>
 
        <div>
-           <img  class="imgProductos" src="./imagenes/piscina.jpg" alt="foto" width="300">
+           <img  class="imgProductos" data-aos="flip-up" src="./imagenes/piscina.jpg" alt="foto" width="300">
            <h3>Productos para piscinas</h3>
        </div>
 
        <div>
-           <img  class="imgProductos"  src="./imagenes/auto.jpg" alt="foto" width="300">
+           <img  class="imgProductos" data-aos="flip-up" src="./imagenes/auto.jpg" alt="foto" width="300">
            <h3>Productos para autos</h3>
        </div>
    </section >
@@ -148,6 +150,9 @@
     </footer>
     
   
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
