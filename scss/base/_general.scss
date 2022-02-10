@@ -1,0 +1,12 @@
+body{
+    background-color: $backgroundcolor;
+    font-family: nth($tipografia, 1)
+}
+
+.titulo{
+    color: $colortitulos;
+}
+
+.a{
+    text-decoration: none;
+}

@@ -1,0 +1,50 @@
+body {
+  background-color: rgba(99, 95, 95, 0.932);
+  font-family: "Cinzel"; }
+
+.titulo {
+  color: #face09; }
+
+.a {
+  text-decoration: none; }
+
+.logo {
+  transition: all 0.3s; }
+  .logo:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; }
+
+@keyframes shake {
+  0% {
+    transform: translate(2px, 2px) rotate(180deg); } }
+
+.fotosPrincipales {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  transition: all 1s; }
+  .fotosPrincipales:hover {
+    transform: scale(1, 1);
+    box-shadow: 2px 1px 28px 28px rgba(209, 192, 15, 0.51);
+    -webkit-box-shadow: 2px 1px 28px 28px rgba(209, 192, 15, 0.51);
+    -moz-box-shadow: 2px 1px 28px 28px rgba(209, 192, 15, 0.51); }
+  .fotosPrincipales.uno:hover {
+    transform: scale(1, 1);
+    box-shadow: 2px 1px 28px 28px #d10f0f;
+    -webkit-box-shadow: 2px 1px 28px 28px #d10f0f;
+    -moz-box-shadow: 2px 1px 28px 28px #d10f0f; }
+  .fotosPrincipales.tres:hover {
+    transform: scale(1, 1);
+    box-shadow: 2px 1px 28px 28px #33ff00;
+    -webkit-box-shadow: 2px 1px 28px 28px #33ff00;
+    -moz-box-shadow: 2px 1px 28px 28px #33ff00; }
+  .fotosPrincipales.cuatro:hover {
+    transform: scale(1, 1);
+    box-shadow: 2px 1px 28px 28px #ff00f2;
+    -webkit-box-shadow: 2px 1px 28px 28px #ff00f2;
+    -moz-box-shadow: 2px 1px 28px 28px #ff00f2; }
+  .fotosPrincipales.cinco:hover {
+    transform: scale(1, 1);
+    box-shadow: 2px 1px 28px 28px #00fff2;
+    -webkit-box-shadow: 2px 1px 28px 28px #00fff2;
+    -moz-box-shadow: 2px 1px 28px 28px #00fff2; }

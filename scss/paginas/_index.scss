@@ -1,0 +1,62 @@
+.logo{
+    transition: all 0.3s;
+
+    &:hover{
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes shake {
+        0%{
+            transform: translate(2px,2px) rotate(180deg)
+        }
+        
+    }
+}
+
+ 
+
+.fotosPrincipales{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    transition: all 1s;
+
+    &:hover{
+        transform: scale(1,1);
+        box-shadow: 2px 1px 28px 28px rgba(209,192,15,0.51);
+        -webkit-box-shadow: 2px 1px 28px 28px rgba(209,192,15,0.51);
+        -moz-box-shadow: 2px 1px 28px 28px rgba(209,192,15,0.51);
+    }
+
+   &.uno:hover{
+    transform: scale(1,1);
+    box-shadow: 2px 1px 28px 28px rgb(209, 15, 15);
+    -webkit-box-shadow: 2px 1px 28px 28px rgb(209, 15, 15);
+    -moz-box-shadow: 2px 1px 28px 28px rgb(209, 15, 15);
+   }
+
+   &.tres:hover{
+    transform: scale(1,1);
+    box-shadow: 2px 1px 28px 28px rgb(51, 255, 0);
+    -webkit-box-shadow: 2px 1px 28px 28px rgb(51, 255, 0);
+    -moz-box-shadow: 2px 1px 28px 28px rgb(51, 255, 0);
+   }
+
+   &.cuatro:hover{
+    transform: scale(1,1);
+    box-shadow: 2px 1px 28px 28px rgb(255, 0, 242);
+    -webkit-box-shadow: 2px 1px 28px 28px rgb(255, 0, 242);
+    -moz-box-shadow: 2px 1px 28px 28px rgb(255, 0, 242);
+   }
+
+   &.cinco:hover{
+    transform: scale(1,1);
+    box-shadow: 2px 1px 28px 28px rgb(0, 255, 242);
+    -webkit-box-shadow: 2px 1px 28px 28px rgb(0, 255, 242);
+    -moz-box-shadow: 2px 1px 28px 28px rgb(0, 255, 242);
+   }
+
+
+
+}
