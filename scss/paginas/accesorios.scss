@@ -1,0 +1,50 @@
+.redes{
+    @extend %flex;
+}
+
+.boton{
+    background-color: map-get($colores, segundo );
+    &:hover{
+        background-color: map-get($colores , hover-primero );
+    }
+    
+}
+
+.casa{
+    color: black;
+    &:hover{
+        color: map-get($colores , hover-primero )
+    }
+}
+
+.facebook{
+    color: black;
+    &:hover{
+        color: map-get($colores, hover-primero )
+    }
+}
+
+.instagram{
+    color: black;
+    &:hover{
+        color: map-get($colores, hover-primero )
+    }
+}
+
+.wsp{
+    color: black;
+    &:hover{
+        color: map-get($colores, hover-primero )
+    }
+}
+
+.correo{
+    color: black;
+    &:hover{
+        color: map-get($colores, hover-primero )
+    }
+}
+
+iframe{
+    width: 100%;
+}

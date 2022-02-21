@@ -1,5 +1,10 @@
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 body {
-  background-color: rgba(99, 95, 95, 0.932);
+  background-color: grey;
   font-family: "Cinzel"; }
 
 .titulo {
@@ -48,3 +53,65 @@ body {
     box-shadow: 2px 1px 28px 28px #00fff2;
     -webkit-box-shadow: 2px 1px 28px 28px #00fff2;
     -moz-box-shadow: 2px 1px 28px 28px #00fff2; }
+
+section p {
+  text-align: center; }
+
+.productos {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  margin: 2%; }
+
+.carrouselProductos {
+  display: flex;
+  overflow-x: scroll;
+  width: 70%;
+  margin: auto; }
+  .carrouselProductos .carrouselProductos::-webkit-scrollbar {
+    width: 2px;
+    /* width of the entire scrollbar */ }
+  .carrouselProductos .carrouselProductos::-webkit-scrollbar-track {
+    background: #ffffff;
+    /* color of the tracking area */
+    border-radius: 6px; }
+  .carrouselProductos .carrouselProductos::-webkit-scrollbar-thumb {
+    background-color: #080808;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #080808;
+    /* creates padding around scroll thumb */ }
+
+.boton {
+  background-color: yellow; }
+  .boton:hover {
+    background-color: white; }
+
+.casa {
+  color: black; }
+  .casa:hover {
+    color: white; }
+
+.facebook {
+  color: black; }
+  .facebook:hover {
+    color: white; }
+
+.instagram {
+  color: black; }
+  .instagram:hover {
+    color: white; }
+
+.wsp {
+  color: black; }
+  .wsp:hover {
+    color: white; }
+
+.correo {
+  color: black; }
+  .correo:hover {
+    color: white; }
+
+iframe {
+  width: 100%; }

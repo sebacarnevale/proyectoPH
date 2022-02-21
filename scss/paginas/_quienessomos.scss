@@ -1,0 +1,33 @@
+section p{
+    text-align: center;
+}
+
+.productos{
+    width: map-get($tamaños, anchoAlto-cuatro );
+    height: map-get($tamaños, anchoAlto-cuatro );
+    object-fit: cover;
+    margin: 2%;
+}
+
+.carrouselProductos{
+    display: flex;
+    overflow-x: scroll;
+    width: 70%;
+    margin: auto;
+
+    .carrouselProductos::-webkit-scrollbar {
+        width: 2px;               /* width of the entire scrollbar */
+    }
+      
+    .carrouselProductos::-webkit-scrollbar-track {
+        background: #ffffff;        /* color of the tracking area */
+        border-radius: 6px;
+    }
+      
+      .carrouselProductos::-webkit-scrollbar-thumb {
+          background-color: #080808;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+        border: 3px solid #080808;  /* creates padding around scroll thumb */   
+    }
+    
+}

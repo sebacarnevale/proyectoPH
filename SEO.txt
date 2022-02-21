@@ -1,0 +1,9 @@
+Se agregó keywords a todos los sitios como por ej: productos de limpieza lavandina, cloro, jabon, papel.
+
+Se agregó un description adecuado para cada uno de los sitios segun lo que correspondia.
+
+Se agregó el sitemap.
+
+Se agregó el favicon.
+
+Se arregló los titulos de cada uno de los sitos.

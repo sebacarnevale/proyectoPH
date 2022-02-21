@@ -3,3 +3,34 @@ $colortitulos: #face09;
 
 $tipografia:
 "Cinzel", serif;
+
+
+
+
+%flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+$colores: (
+    primero: black,
+    segundo: yellow,
+    tercero: green,
+    background-color: grey,
+    hover-primero: white,
+    hover-segundo: green
+
+
+);
+
+$tamaños: (
+    anchoAlto-uno: 200px,
+    anchoAlto-dos: 250px,
+    anchoAlto-tres: 300px,
+    anchoAlto-cuatro: 350px,
+    
+);
