@@ -3,8 +3,8 @@ section p{
 }
 
 .productos{
-    width: map-get($tamaños, anchoAlto-cuatro );
-    height: map-get($tamaños, anchoAlto-cuatro );
+    width: map-get($tamaños, ancho-cuatro );
+    height: map-get($tamaños, alto-cuatro );
     object-fit: cover;
     margin: 2%;
 }

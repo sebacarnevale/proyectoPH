@@ -18,7 +18,7 @@ $tipografia:
 
 $colores: (
     primero: black,
-    segundo: yellow,
+    segundo: #face09,
     tercero: green,
     background-color: grey,
     hover-primero: white,
@@ -28,9 +28,14 @@ $colores: (
 );
 
 $tamaños: (
-    anchoAlto-uno: 200px,
-    anchoAlto-dos: 250px,
-    anchoAlto-tres: 300px,
-    anchoAlto-cuatro: 350px,
-    
-);
+    ancho-uno: 200px,
+    alto-uno: 200px,
+    ancho-dos: 250px,
+    alto-dos: 250px,
+    ancho-tres: 300px,
+    alto-tres: 300px,
+    ancho-cuatro: 350px,
+    alto-cuatro: 350px
+    );
+
+

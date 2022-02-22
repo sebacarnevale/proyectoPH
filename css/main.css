@@ -83,8 +83,11 @@ section p {
     border: 3px solid #080808;
     /* creates padding around scroll thumb */ }
 
+div h2 {
+  text-align: center; }
+
 .boton {
-  background-color: yellow; }
+  background-color: #face09; }
   .boton:hover {
     background-color: white; }
 
