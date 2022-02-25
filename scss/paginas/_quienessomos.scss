@@ -1,9 +1,9 @@
-section pre{
-    text-align: justify;
+section p{
     font-weight: bolder;
-    overflow-x: hidden;
-    font-size: medium;
+    line-height: 2;
 }
+
+
 
 .productos{
     width: map-get($tamaños, ancho-cuatro );
