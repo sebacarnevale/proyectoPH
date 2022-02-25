@@ -7,13 +7,41 @@ $tipografia:
 
 
 
-%flex{
+%flexRedes{
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 
+%contenedorFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+
+@mixin flexboxContenedor ( $wrap,) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: $wrap;
+
+}
+
+
+@mixin flexboxContenedorDiv ($wrap){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: $wrap;
+    flex-direction: column;
+    
+}
+
+    
 
 
 $colores: (

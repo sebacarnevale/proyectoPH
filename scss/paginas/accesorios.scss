@@ -1,6 +1,16 @@
 .redes{
-    @extend %flex;
+    @extend %flexRedes;
 }
+
+
+.botonProductos{
+    background-color: map-get($colores, background-color );
+    &:hover{
+        background-color: map-get($colores, segundo );
+    }
+    
+}
+
 
 .boton{
     background-color: map-get($colores, segundo );
